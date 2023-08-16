@@ -47,7 +47,6 @@ const Todos = () => {
   };
 
   useEffect(() => {
-    
     get(title);
   }, [title]);
   return (
